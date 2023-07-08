@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Screen Recorder</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body id="top" class="dark_theme">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1 class="h1 logo">
+        <a href="#">Rio<span>.</span></a>
+      </h1>
+
+      <div class="navbar-actions">
+
+    
+
+        <button class="theme-btn" aria-label="Change Theme" title="Change Theme" data-theme-btn style="display: none;">
+          <span class="icon"></span>
+        </button>
+
+      </div>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" title="Toggle Menu" data-nav-toggle-btn>
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="https://rioharley.in/#home" target="_blank" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="https://rioharley.in/#about" target="_blank" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="https://rioharley.in/#skills" target="_blank" class="navbar-link">Skills</a>
+          </li>
+
+          <li>
+            <a href="https://rioharley.in/#portfolio" target="_blank" class="navbar-link">Portfolio</a>
+          </li>
+
+          <li>
+            <a href="https://rioharley.in/#contact" target="_blank" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- ||MAIN  -->
+
+  <main>
+    <div class="video" style="display: flex; justify-content: center; align-items: center; margin-top: 200px;">
+        <video class="video" width="1080px" controls></video></div>
+        <br>
+        <div class="container-btn" style="height: 100px; display: flex; justify-content: center;">
+        <div class="btn">
+        <button class="record-btn" style="font-size: 1.5rem; border: 1px solid white; border-radius: 10px; padding: 5px; background-color: #14151297; font-family:'Poppins'; color: aliceblue; ">Record</button>
+    </div>
+</div>
+  </main>
+  <script src="script.js"></script>
+  </body>
+  </html>
+  
